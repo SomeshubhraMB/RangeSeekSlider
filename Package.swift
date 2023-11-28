@@ -1,11 +1,14 @@
-// swift-tools-version: 5.1
+// swift-tools-version: 5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 import PackageDescription
 
 let package = Package(
     name: "RangeSeekSlider",
+    platforms: [
+        .iOS(.v14)
+    ],
     products: [
-        .library(name: "RangeSeekSlider", type: .dynamic, targets: ["RangeSeekSlider"])
+        .library(name: "RangeSeekSlider", targets: ["RangeSeekSlider"])
     ],
     dependencies: [],
     targets: [
