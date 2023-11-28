@@ -10,6 +10,5 @@ let package = Package(
     dependencies: [],
     targets: [
         .target(name: "RangeSeekSlider", dependencies: [])
-    ],
-    swiftLanguageVersions: [5]
+    ]
 )
